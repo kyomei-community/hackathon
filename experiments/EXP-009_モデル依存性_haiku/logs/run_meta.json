@@ -1,0 +1,94 @@
+{
+ "config": {
+  "experiment_id": "EXP-009_モデル依存性_haiku",
+  "seed": 1,
+  "model": "claude-haiku-4-5",
+  "parallel": 3,
+  "turns": 15,
+  "communication": true,
+  "cost_limit_usd": 10.0,
+  "llm_workdir": "/tmp/sim_agent_home",
+  "agents": {
+   "names": [
+    "ハル",
+    "ミナ",
+    "ケイ",
+    "サト",
+    "ユキ",
+    "リン"
+   ],
+   "init_energy_range": [
+    6,
+    14
+   ],
+   "base_recovery_range": [
+    1.0,
+    3.0
+   ]
+  },
+  "physics": {
+   "action_cost": 4,
+   "bonus_gain": 0.5,
+   "bonus_decay": 1.0,
+   "bonus_max": 5,
+   "energy_max": 20
+  }
+ },
+ "started_at": "2026-08-29T13:02:19+0900",
+ "initial_agents": [
+  {
+   "name": "ハル",
+   "energy": 7.1,
+   "base_recovery": 2.7,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ミナ",
+   "energy": 12.1,
+   "base_recovery": 1.5,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ケイ",
+   "energy": 10.0,
+   "base_recovery": 1.9,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "サト",
+   "energy": 11.2,
+   "base_recovery": 2.6,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ユキ",
+   "energy": 6.8,
+   "base_recovery": 1.1,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "リン",
+   "energy": 12.7,
+   "base_recovery": 1.9,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  }
+ ]
+}

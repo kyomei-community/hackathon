@@ -1,0 +1,16 @@
+{
+ "tail_start_turn": 21,
+ "per_agent_A_rate": {
+  "ハル": 1.0,
+  "ミナ": 0.6,
+  "ケイ": 0.3,
+  "サト": 0.4,
+  "ユキ": 0.3,
+  "リン": 0.3
+ },
+ "adopted_agents": [
+  "ハル"
+ ],
+ "adoption_rate": 0.167,
+ "total_cost_usd": 21.188
+}

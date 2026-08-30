@@ -1,0 +1,19 @@
+# EXP-008: スケール実証。EXP-001系から住人数のみ6→12に変更（config変更のみ、コード改変なし）
+experiment_id: EXP-008_スケール実証_12体
+seed: 1
+model: claude-sonnet-5
+parallel: 4
+turns: 30
+communication: true
+cost_limit_usd: 45.0
+llm_workdir: /tmp/sim_agent_home
+agents:
+  names: [ハル, ミナ, ケイ, サト, ユキ, リン, アオ, ソラ, ツバキ, ナギ, モモ, イト]
+  init_energy_range: [6, 14]
+  base_recovery_range: [1.0, 3.0]
+physics:
+  action_cost: 4
+  bonus_gain: 0.5
+  bonus_decay: 1.0
+  bonus_max: 5
+  energy_max: 20

@@ -1,0 +1,20 @@
+{
+ "tail_start_turn": 21,
+ "per_agent_A_rate": {
+  "A1": 1.0,
+  "A2": 1.0,
+  "A3": 1.0,
+  "A4": 1.0,
+  "A5": 0.3,
+  "A6": 1.0
+ },
+ "adopted_agents": [
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "A6"
+ ],
+ "adoption_rate": 0.833,
+ "total_cost_usd": 17.17
+}

@@ -1,0 +1,94 @@
+{
+ "config": {
+  "experiment_id": "EXP-003_会話あり_seed3",
+  "seed": 3,
+  "model": "claude-sonnet-5",
+  "parallel": 3,
+  "turns": 30,
+  "communication": true,
+  "cost_limit_usd": 25.0,
+  "llm_workdir": "/tmp/sim_agent_home",
+  "agents": {
+   "names": [
+    "ハル",
+    "ミナ",
+    "ケイ",
+    "サト",
+    "ユキ",
+    "リン"
+   ],
+   "init_energy_range": [
+    6,
+    14
+   ],
+   "base_recovery_range": [
+    1.0,
+    3.0
+   ]
+  },
+  "physics": {
+   "action_cost": 4,
+   "bonus_gain": 0.5,
+   "bonus_decay": 1.0,
+   "bonus_max": 5,
+   "energy_max": 20
+  }
+ },
+ "started_at": "2026-08-29T11:23:06+0900",
+ "initial_agents": [
+  {
+   "name": "ハル",
+   "energy": 7.9,
+   "base_recovery": 2.1,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ミナ",
+   "energy": 9.0,
+   "base_recovery": 2.2,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ケイ",
+   "energy": 11.0,
+   "base_recovery": 1.1,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "サト",
+   "energy": 6.1,
+   "base_recovery": 2.7,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "ユキ",
+   "energy": 8.1,
+   "base_recovery": 1.5,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  },
+  {
+   "name": "リン",
+   "energy": 14.0,
+   "base_recovery": 1.9,
+   "bonus": 0.0,
+   "last_recovery": 0.0,
+   "history": [],
+   "note": ""
+  }
+ ]
+}

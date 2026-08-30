@@ -1,0 +1,13 @@
+{
+ "tail_start_turn": 3,
+ "per_agent_A_rate": {
+  "ハル": 1.0,
+  "ミナ": 1.0
+ },
+ "adopted_agents": [
+  "ハル",
+  "ミナ"
+ ],
+ "adoption_rate": 1.0,
+ "total_cost_usd": 0.445
+}

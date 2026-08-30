@@ -1,0 +1,49 @@
+# --- 秘密情報 ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- ログ・一時ファイル ---
+*.log
+tmp/
+.cache/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- エディタ ---
+.vscode/
+.idea/
+*.swp
+
+# --- ローカル専用 ---
+_local/
